@@ -1,0 +1,16 @@
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 3rem;
+    width: 100%;
+    background-color: lightgray;
+    color: white;
+    text-align: center;
+
+    .footer-wrapper {
+        max-width: 1450px;
+        margin: 0 auto;
+        padding: 5px 10px;
+    }
+}

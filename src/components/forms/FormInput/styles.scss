@@ -1,0 +1,19 @@
+.form-row {
+    input {
+        display: block;
+        width: 100%;
+        font-size: 1.5rem;
+        line-height: 1rem;
+        font-weight: 400;
+        text-align: left;
+        padding: 1rem 0.5rem;
+        margin: 10px auto;
+        border: 1px solid #ececec;
+        outline: none;
+
+        &:focus {
+            border: 1px solid #00a8e8;
+        }
+    }
+
+}
