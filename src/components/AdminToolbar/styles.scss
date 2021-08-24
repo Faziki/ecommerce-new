@@ -1,0 +1,35 @@
+.AdminToolbar {
+    display: inline-block;
+    width: 100%;
+    background-color: lightgreen;
+    height: auto;
+    margin: 0 auto;
+    padding: 0 10px;
+
+    .admin-link {
+        padding: 5px 5px;
+        margin: 0px auto;
+        float: right;
+
+        .admin-button {
+            display: inline-block;
+            border: none;
+            color: #fff;
+            text-decoration: none;
+            background-color: lightgray;
+            padding: 7px 7px;
+            font-size: 13px;
+            text-transform: uppercase;
+            font-weight: 600;
+            letter-spacing: 3px;
+            border-radius: 2px;
+            text-align: center;
+            position: relative;
+            outline: none;
+            transition: background-color .1s ease;
+            cursor: pointer;
+        }
+    }
+
+
+}

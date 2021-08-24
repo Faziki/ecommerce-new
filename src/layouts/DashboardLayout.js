@@ -1,7 +1,7 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import { useDispatch } from 'react-redux';
-import { signOutUserStart } from './../redux/User/user.actions';
+import { signOutUserStart } from '../redux/user/user.actions';
 
 import Header from './../components/Header';
 import VerticalNav from './../components/VerticalNav';
@@ -22,9 +22,9 @@ const DashBoardLayout = props => {
           <VerticalNav>
             <ul>
               <li>
-                <Link to="/dashboard">
+                <NavLink to="/dashboard">
                   Home
-                </Link>
+                </NavLink>
               </li>
               <li>
                 <span className="signOut" onClick={() => signOut()}>
